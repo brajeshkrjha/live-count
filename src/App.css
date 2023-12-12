@@ -1,0 +1,60 @@
+body {
+  background-color: #f5f5f5; /* Change this to your desired background color */
+  margin: auto;
+  padding: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100px 200px;
+  }
+
+.App {
+  text-align: center;
+}
+
+.seek {
+  max-width: 800rem;
+  margin: 0 auto;
+  padding: 20px;
+  /* Remove the background-color property here */
+}
+
+h1 {
+  color: #333;
+}
+
+.date {
+  margin-bottom: 15px;
+}
+
+input {
+  height: 20px;
+  width: 115px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  height: 30px;
+  width: 80px;
+  margin-right: 10px;
+  background-color: #1b14d3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.DataTable {
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */
